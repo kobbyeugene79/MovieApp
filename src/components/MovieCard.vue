@@ -3,7 +3,7 @@ import { computed } from 'vue';
 
 const props = defineProps({
     movie: Object,
-    genres: Object
+    genres: Array
 })
 
 const posterPath = computed(() => {

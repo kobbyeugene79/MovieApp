@@ -32,6 +32,7 @@ const props = defineProps({
 
     &__title{
         background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
